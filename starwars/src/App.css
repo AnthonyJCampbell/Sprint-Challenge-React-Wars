@@ -26,9 +26,19 @@
   transition: 0.5s;
 }
 
+.characterCard * {
+  transition: 0.5s;
+}
+
 .characterCard:hover {
   background: rgba(221, 221, 221, 0.7);
   box-shadow: 0 15px 15px rgba(0,0,0, .5);
+  transform: skew(0deg, 3deg);
+}
+
+.characterCard:hover * {
+  transition: 0.5s;
+  transform: skew(0deg, -3deg);
 }
 
 h1 {
@@ -42,4 +52,14 @@ h2 {
 span {
   color: crimson;
   text-decoration: underline;
+}
+
+@media (min-width: 678px) {
+  .holder {
+    justify-content: space-evenly;
+  }
+  .characterCard {
+    padding: 25px;
+    width: 40%;
+  }
 }
