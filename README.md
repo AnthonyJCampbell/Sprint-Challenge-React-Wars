@@ -25,12 +25,15 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [x] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React.js is a JavaScript library that gives us the ability to easily create user interfaces. React allows us to quickly build UI components and easily keep track of 'em. With React, we build the vast majority of our site-content in JavaScript files. These files are usually ordered as 'Components'. For instance, whereas you'd normally declare a <nav> HTML element, containing all relevant links, with React you can create a separate 'nav'-Component in a separate file and implement it wherever you want with but a single line of code. 
 
-- [ ] What does it mean to _think_ in react?
+- [x] What does it mean to _think_ in react?
+To think in React means to change the way you view and think of websites in general. when you get used to using React, you start to see each site as a collection of different components, some of which have been reused all over the place, rather than a monolithic HTML file. For example, when looking at Facebook, you'd see a different component for the navbar, one for your timeline, containing smaller components for every individual post. The beauty about components is that they can be reused - even for slightly different purposes, if need be. A component provides a scaffolding of sorts wherein you can 'pour' data from the state which alter the component.
 
 - [ ] Describe state.
 
 - [ ] Describe props.
+Method and variables passed from one component to the next.
 
 ## Project Set Up
 
