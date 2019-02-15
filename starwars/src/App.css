@@ -13,10 +13,10 @@
 .holder {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.characterCard {
+.characterCard, button {
   background: rgba(221, 221, 221, 0.5);
   padding: 15px;
   margin: 15px;
@@ -49,17 +49,32 @@ h2 {
   font-size: 2em;
 }
 
+button {
+  font-size: 1.2em;
+}
+
+button:hover {
+  background: rgba(221, 221, 221, 0.7);
+  box-shadow: 0 15px 15px rgba(0,0,0, .5);
+}
+
 span {
   color: crimson;
   text-decoration: underline;
 }
 
-@media (min-width: 678px) {
+@media (max-width: 1024px) {
+  .characterCard {
+    width: 40%;
+  }
+}
+
+@media (max-width: 678px) {
   .holder {
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .characterCard {
-    padding: 25px;
+    padding: 40px;
     width: 40%;
   }
 }

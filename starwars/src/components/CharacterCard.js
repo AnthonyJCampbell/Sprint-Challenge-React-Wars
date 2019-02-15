@@ -26,7 +26,7 @@ const CharacterCard = (props) => {
                 Has Starred in <span>{films.length}</span> Movies:<br />
                 Episodes:{ getMovieNum()}
             </h3>
-            <h3 className="BMI">He/She/It weighs {mass} lbs and is {height} cm tall.
+            <h3 className="BMI">He/She/It weighs {mass} kg and is {height} cm tall.
             This means its <span>BMI is { calculateBMI() }</span>
             </h3> 
         </div>
