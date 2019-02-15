@@ -33,7 +33,7 @@ To think in React means to change the way you view and think of websites in gene
 - [x] Describe state.
 `state` is an object hosted on a React object that allows you to store data from that components, it's parents and children. In a sense, it's an internalized, local, mini-database. Using it (More usually called 'depending on the State'), you can create dynamic and interactive components that exhibit behaviour whenever one of the values within `state` changes. An example of `state` would be to keep track of how many times a user has clicked a specific element. You can then later use this generated data by pulling it from state and using it elsewhere.
 
-- [ ] Describe props.
+- [x] Describe props.
 Props are parameters (i.e. Methods, variables, objects, etc.) that get passed to a child component whenever it is created. For example, if your state lived on your `App.js` file and you wanted to pass the `username: 'John'` key-value pair from `this.state` on `App` to your custom-made `<SayHi />` JSX-Component, you'd have to pass a `username` prop to `<SayHi />`.
 It can be done like so:
 *** On `App.js` ***
@@ -45,22 +45,22 @@ return (
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
-- [ ] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
-- [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
+- [x] Create a forked copy of this project.
+- [x] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Change directories into `./starwars` (`cd starwars`) and run `yarn install` to retrieve all needed dependencies.
+- [x] Once you have installed the _node_modules_, run `yarn start or` to get your server up and running.
+- [x] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 Follow these steps for completing your project.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] Implement the project on this Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
-- [ ] Add your Project Manager as a Reviewer on the Pull-request
-- [ ] PM then will count the HW as done by  merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [x] Add your Project Manager as a Reviewer on the Pull-request
+- [x] PM then will count the HW as done by  merging the branch back into master.
 
 Please note:
 
@@ -99,9 +99,9 @@ Your data set will look like this:
 
 Your finished project must include all of the following requirements:
 
-- [ ] A list of Star Wars Characters rendered to the screen.
-- [ ] You must have at least one list element for each star wars character in the data set.
-- [ ] The list elements must all be styled beyond the basic
+- [x] A list of Star Wars Characters rendered to the screen.
+- [x] You must have at least one list element for each star wars character in the data set.
+- [] The list elements must all be styled beyond the basic
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts to much and does not.
 

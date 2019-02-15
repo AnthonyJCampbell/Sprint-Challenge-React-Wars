@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
+import CharacterCard from './components/CharacterCard';
+
+
 
 class App extends Component {
   constructor() {
     super();
     this.state = {
-      starwarsChars: []
+      starwarsChars: [],
     };
   }
 
@@ -33,6 +36,12 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
+        {this.state.starwarsChars.map((char, idx)=> {
+          console.log(char);
+          return (
+            <CharacterCard key={idx} char={char} />
+          );
+        })}
       </div>
     );
   }
