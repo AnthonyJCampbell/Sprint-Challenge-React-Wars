@@ -10,9 +10,9 @@ const CharacterCard = (props) => {
     const getMovieNum = () => {
         let output = '';
         films.map(film => {
-            output += ` ${film.slice(film.length-2, film.length-1)},`;
+            return (output += ` ${film.slice(film.length-2, film.length-1)},`);
         })
-        return output;
+        return output.slice(0, output.length-1);
     }
 
     const calculateBMI = () => {
@@ -20,14 +20,14 @@ const CharacterCard = (props) => {
     }
 
     return (
-        <div>
+        <div className="characterCard">
             <h2>{name}</h2>
-            <h3>
-                Has Starred in {films.length} Movies:<br />
-                Episodes:{ getMovieNum()};
+            <h3 className="movies">
+                Has Starred in <span>{films.length}</span> Movies:<br />
+                Episodes:{ getMovieNum()}
             </h3>
-            <h3>He/She/It weighs {mass} lbs and is {height} cm tall.
-            This means its BMI is { calculateBMI() }
+            <h3 className="BMI">He/She/It weighs {mass} lbs and is {height} cm tall.
+            This means its <span>BMI is { calculateBMI() }</span>
             </h3> 
         </div>
     );

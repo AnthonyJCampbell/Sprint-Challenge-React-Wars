@@ -1,8 +1,45 @@
 .App {
   text-align: center;
+  width: 100%;
+  max-width: 1200px;
+  margin: 25px auto;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.holder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.characterCard {
+  background: rgba(221, 221, 221, 0.5);
+  padding: 15px;
+  margin: 15px;
+  border: 5px solid rgba(9,9,9, 0.2);
+  box-shadow: 0 10px 15px rgba(0,0,0, .2);
+  width: 26%;
+  transition: 0.5s;
+}
+
+.characterCard:hover {
+  background: rgba(221, 221, 221, 0.7);
+  box-shadow: 0 15px 15px rgba(0,0,0, .5);
+}
+
+h1 {
+  font-size: 3.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+span {
+  color: crimson;
+  text-decoration: underline;
+}
